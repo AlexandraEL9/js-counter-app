@@ -1,13 +1,27 @@
 body {
-    background-image: url("station.jpg");
+    background-image: url("yarn.jpg");
     background-size: cover;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-align: center;
+    height: 100vh;
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.7); /* Use rgba color with 0.7 opacity */
+    max-width: 80%;
+    border-radius: 10px;
+    position: absolute; /* Position the container */
+    top: 50%; /* Align the top edge of the container to the vertical center */
+    left: 50%; /* Align the left edge of the container to the horizontal center */
+    transform: translate(-50%, -50%); /* Center the container precisely */
 }
 
 h1 {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
